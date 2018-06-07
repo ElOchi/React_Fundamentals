@@ -3,11 +3,11 @@ import React from 'react';
 
 
 
-const Intro = (props) => (
+const Intro = props => (
      <p className = "App-intro" >
-    Our first functional component < /p>
+   {props.message} < /p>
 
-)
+);
 
 
 export default Intro;
